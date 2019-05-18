@@ -1,0 +1,40 @@
+{
+  "name": "react-scplayer",
+  "version": "1.0.0",
+  "description": "Live, local and social network video player",
+  "main": "./dist/bandle.js",
+  "scripts": {
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scaki/react-scplayer.git"
+  },
+  "keywords": [
+    "react",
+    "video",
+    "player",
+    "scplayer"
+  ],
+  "author": "Safa ÇAKI",
+  "license": "ISC",
+  "dependencies": {
+    "hls.js": "^0.12.4",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "peerDependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/plugin-proposal-object-rest-spread": "^7.4.4",
+    "@babel/plugin-transform-react-jsx": "^7.3.0",
+    "@babel/preset-env": "^7.4.4",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.31.0",
+    "webpack-cli": "^3.3.2"
+  }
+}
