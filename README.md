@@ -32,7 +32,7 @@ import Scplayer from "scplayer";
 *url* | string | null | Video file or stream url
 *source* | string | null | Stream video "**HLS**" or for files "**File**"
 *controls* | bool | false | Show control bar (only using HLS of File)
-*autoPlay* | bool | false | Autoplay using (only using HLS of File)
+*autoPlay* | bool | false | Autoplay (only using HLS of File)
 *muted* | bool | false | Mute video (only using HLS of File)
 *poster* | string | null | Poster image url (only using HLS of File)
 *width* | string | 100% | Video player width
