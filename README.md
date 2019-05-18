@@ -31,9 +31,9 @@ import Scplayer from "scplayer";
 | ------ | ------ | ------ | ------ |
 *url* | string | null | Video file or stream url
 *source* | string | null | For stream video "**HLS**" or for files "**File**"
-*controls* | bool | false | For show control bar add this prop
-*autoPlay* | bool | false | For autoplay using
-*muted* | bool | false | For mute video
-*poster* | string | null | Poster image url
+*controls* | bool | false | For show control bar add this prop (only using HLS of File)
+*autoPlay* | bool | false | For autoplay using (only using HLS of File)
+*muted* | bool | false | For mute video (only using HLS of File)
+*poster* | string | null | Poster image url (only using HLS of File)
 *width* | string | 100% | Video player witdh
 *height* | string | auto | Video player height
