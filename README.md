@@ -4,7 +4,7 @@ Live, local and social network video player.Using this module;
 
   - HLS (.m3u8) Stream
   - Local files (mp4, WebM, ogg)
-  - Various social network (YouTube, Dailymotion, Vimeo vs.)
+  - Various social network (YouTube, Dailymotion, Vimeo etc.)
 
 you can play video files.
 
@@ -30,10 +30,10 @@ import Scplayer from "scplayer";
 | Prop | Type | Default | Description
 | ------ | ------ | ------ | ------ |
 *url* | string | null | Video file or stream url
-*source* | string | null | For stream video "**HLS**" or for files "**File**"
-*controls* | bool | false | For show control bar add this prop
-*autoPlay* | bool | false | For autoplay using
-*muted* | bool | false | For mute video
-*poster* | string | null | Poster image url
-*width* | string | 100% | Video player witdh
+*source* | string | null | Stream video "**HLS**" or for files "**File**"
+*controls* | bool | false | Show control bar (only using HLS of File)
+*autoPlay* | bool | false | Autoplay using (only using HLS of File)
+*muted* | bool | false | Mute video (only using HLS of File)
+*poster* | string | null | Poster image url (only using HLS of File)
+*width* | string | 100% | Video player width
 *height* | string | auto | Video player height
